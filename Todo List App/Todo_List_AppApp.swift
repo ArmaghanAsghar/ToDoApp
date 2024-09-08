@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import SwiftData
 @main
 struct Todo_List_AppApp: App {
     
@@ -16,10 +16,15 @@ struct Todo_List_AppApp: App {
     
     var body: some Scene {
         WindowGroup {
+            ExpenseListView()
+        }
+        .modelContainer(for: ExpenseModel.self)
+        
+        /* WindowGroup {
             NavigationStack {
                 ListView()
                     .environmentObject(listViewModel)
             }
-        }
+        } */
     }
 }

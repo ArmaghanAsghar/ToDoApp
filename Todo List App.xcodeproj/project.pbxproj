@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		EFA075CA2C8D483800D45FE4 /* NoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA075C92C8D483800D45FE4 /* NoItemView.swift */; };
 		EFA075CF2C8D5C8500D45FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA075CE2C8D5C8500D45FE4 /* LaunchScreen.storyboard */; };
+		EFCADE102C8E324400C1F888 /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCADE0F2C8E324400C1F888 /* ExpenseModel.swift */; };
+		EFCADE122C8E355400C1F888 /* ExpenseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCADE112C8E355400C1F888 /* ExpenseListView.swift */; };
+		EFCADE162C8E41CC00C1F888 /* ExpenseAddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCADE152C8E41CC00C1F888 /* ExpenseAddSheet.swift */; };
+		EFCADE182C8E42A500C1F888 /* ExpenseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCADE172C8E42A500C1F888 /* ExpenseItemView.swift */; };
+		EFCADE1A2C8E437900C1F888 /* ExpenseUpdateSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCADE192C8E437900C1F888 /* ExpenseUpdateSheet.swift */; };
 		EFFD1E952C87F0AA00F4669C /* Todo_List_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD1E942C87F0AA00F4669C /* Todo_List_AppApp.swift */; };
 		EFFD1E992C87F0AB00F4669C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFD1E982C87F0AB00F4669C /* Assets.xcassets */; };
 		EFFD1E9C2C87F0AB00F4669C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFD1E9B2C87F0AB00F4669C /* Preview Assets.xcassets */; };
@@ -23,6 +28,11 @@
 		EFA075C92C8D483800D45FE4 /* NoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemView.swift; sourceTree = "<group>"; };
 		EFA075CB2C8D58CA00D45FE4 /* Todo-List-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Todo-List-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		EFA075CE2C8D5C8500D45FE4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFCADE0F2C8E324400C1F888 /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		EFCADE112C8E355400C1F888 /* ExpenseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListView.swift; sourceTree = "<group>"; };
+		EFCADE152C8E41CC00C1F888 /* ExpenseAddSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseAddSheet.swift; sourceTree = "<group>"; };
+		EFCADE172C8E42A500C1F888 /* ExpenseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItemView.swift; sourceTree = "<group>"; };
+		EFCADE192C8E437900C1F888 /* ExpenseUpdateSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseUpdateSheet.swift; sourceTree = "<group>"; };
 		EFFD1E912C87F0AA00F4669C /* Todo List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFD1E942C87F0AA00F4669C /* Todo_List_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_List_AppApp.swift; sourceTree = "<group>"; };
 		EFFD1E982C87F0AB00F4669C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +101,10 @@
 				EFFD1EA92C87F7A900F4669C /* AddItemView.swift */,
 				EFA075C92C8D483800D45FE4 /* NoItemView.swift */,
 				EFA075CE2C8D5C8500D45FE4 /* LaunchScreen.storyboard */,
+				EFCADE112C8E355400C1F888 /* ExpenseListView.swift */,
+				EFCADE152C8E41CC00C1F888 /* ExpenseAddSheet.swift */,
+				EFCADE172C8E42A500C1F888 /* ExpenseItemView.swift */,
+				EFCADE192C8E437900C1F888 /* ExpenseUpdateSheet.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				EFFD1EAB2C87FD7200F4669C /* ItemModel.swift */,
+				EFCADE0F2C8E324400C1F888 /* ExpenseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,9 +200,14 @@
 				EFFD1EAC2C87FD7200F4669C /* ItemModel.swift in Sources */,
 				EFA075CA2C8D483800D45FE4 /* NoItemView.swift in Sources */,
 				EFFD1EAE2C8804CF00F4669C /* ListViewModel.swift in Sources */,
+				EFCADE182C8E42A500C1F888 /* ExpenseItemView.swift in Sources */,
 				EFFD1EAA2C87F7A900F4669C /* AddItemView.swift in Sources */,
+				EFCADE162C8E41CC00C1F888 /* ExpenseAddSheet.swift in Sources */,
 				EFFD1EA62C87F42800F4669C /* ListView.swift in Sources */,
+				EFCADE1A2C8E437900C1F888 /* ExpenseUpdateSheet.swift in Sources */,
+				EFCADE122C8E355400C1F888 /* ExpenseListView.swift in Sources */,
 				EFFD1E952C87F0AA00F4669C /* Todo_List_AppApp.swift in Sources */,
+				EFCADE102C8E324400C1F888 /* ExpenseModel.swift in Sources */,
 				EFFD1EA82C87F58500F4669C /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
